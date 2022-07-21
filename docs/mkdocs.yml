@@ -1,4 +1,12 @@
-site_name: axios-deno
+site_name: axios-denojs
+site_author: ardeshir
+repo_url: "https://github.com/ardeshir/axios-denojs"
+repo_name: Github
+
+docs_dir: "."
 
 theme:
   name: material
+  teatures:
+    - tabs
+    - navigation.tabs
