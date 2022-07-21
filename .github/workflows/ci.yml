@@ -13,5 +13,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+      - run: pip install fontawesome_markdown
+      - run: mkdocs gh-deploy --clean --force -f ./mkdocs.yml
 
