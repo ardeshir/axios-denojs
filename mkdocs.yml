@@ -27,7 +27,6 @@ theme:
   palette:
     scheme: slate
     primary: white
-  logo: images/small.png
   icon:
     repo: fontawesome/brands/github
   favicon: images/small.png
@@ -37,18 +36,6 @@ theme:
     - javascript
     - Bash
     - Dockerfile
-
-extra_css:
-  - css/extra.css
-
-markdown_extensions:
-  - admonition
-  - def_list
-  - codehilite:
-      linenums: true
-  - pymdownx.arithmatex:
-      generic: true
-  - fontawesome_markdown
 
 extra_javascript:
   - javascripts/config.js
